@@ -1,0 +1,12 @@
+<web-app>
+    <!--    springmvc容器启动   -->
+    <servlet>
+        <servlet-name>lagou</servlet-name>
+        <servlet-class>server.LagouServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>lagou</servlet-name>
+        <url-pattern>/lagou</url-pattern>
+    </servlet-mapping>
+</web-app>

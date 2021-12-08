@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Server>
+    <Service>
+        <Connector port="8080">
+
+        </Connector>
+        <Engine>
+            <Host name="localhost" appBase="D:\homework\code\webapps">
+                <Context docBase="\demo1" path="/demo1"></Context>
+                <Context docBase="\demo2" path="/demo2"></Context>
+            </Host>
+        </Engine>
+    </Service>
+</Server>
